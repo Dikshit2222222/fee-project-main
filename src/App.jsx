@@ -20,7 +20,7 @@ function App() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '9961737ca7msh39a69c0bec2b3ccp1104abjsna65a21fb5df1', // Hardcoded API key
+        'X-RapidAPI-Key': '8a82088fe6msh556c20d38c4d6fap101b03jsn5fc87311740d', // Hardcoded API key
         'X-RapidAPI-Host': 'real-time-finance-data.p.rapidapi.com'
       }
     };
