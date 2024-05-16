@@ -301,7 +301,95 @@ nav {
   margin-bottom: 20px; /* Adjust as needed */
 }
 
+.q-combine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 2px solid #ced4da; /* Gray border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px; /* Increased padding */
+  margin-bottom: 20px; /* Added margin between cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+
+  &:hover {
+    transform: translateY(-4px); /* Lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhance box shadow */
+  }
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #212529; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #495057; /* Medium text color */
+}
+
+.card-price {
+  font-weight: bold;
+
+  &.positive {
+    color: #28a745; /* Green for positive changes */
+  }
+
+  &.negative {
+    color: #dc3545; /* Red for negative changes */
+  }
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Increased gap between filter options */
+}
+
+.filter-option {
+  flex: 1; /* Equal width for filter options */
+}
+
+.filter-option label {
+  display: block;
+  margin-bottom: 5px;
+  color: #212529; /* Dark text color */
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  border: 1px solid #ced4da; /* Gray border */
+  border-radius: 8px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth transition */
+
+  &:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+  }
+}
+
+button {
+  background-color: #007bff; /* Blue button background */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+
+  &:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+}
+
+
+
 /* singla */
+
 .q-main {
   display: flex;
   background-color: rgb(2, 21, 29);
